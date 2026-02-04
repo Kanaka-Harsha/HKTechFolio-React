@@ -1,0 +1,22 @@
+.me
+{
+    padding:0;
+    margin:0;
+    width:95%;
+    background-color: rgb(255, 255, 255, 0.2);
+    border-radius: 20px;
+    display:flex;
+    justify-content: center;
+    gap:30px;
+}
+
+.text
+{
+    background-color: bisque;
+    width:45%;
+}
+.pic
+{
+    background-color: blanchedalmond;
+    width:45%;
+}
