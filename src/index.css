@@ -1,8 +1,25 @@
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
+  padding: 0;
   width: 100%;
-  min-height: 200vh;
-  background-color:rgb(176, 221, 235);
+  background-color: rgb(176, 221, 235);
+  font-family: "Audiowide", sans-serif;
+}
+
+#root 
+{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  gap:20px;
+}
+
+.container 
+{
+  font-family: "Audiowide", sans-serif;
+  flex: 1;
+  display:flex;
+  justify-content: center;
+  gap:20px;
+  /* align-items:center; */
 }
